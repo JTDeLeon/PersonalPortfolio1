@@ -1,12 +1,90 @@
 *{
   padding:0;
   margin:0;
-  border: 1px solid green;
+  font-family: 'Montserrat', sans-serif;
 }
 
-.background {
-  background-image: url(img/webBack.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 10vh;
+}
+
+.logo {
+  margin-left: 10%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.name {
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.sub-name {
+  font-size: 11px;
+  font-weight: 200;
+}
+
+nav {
+  margin-right: 10%;
+  display: flex;
+  align-items: center;
+}
+
+.navigation-menu {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links {
+  padding: 0 20px;
+  margin: 0 10px;
+  font-size: 12px;
+}
+
+main {
+  height: 90vh;
+  background-color: grey;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#particles-js {
+  background-color: #000b31;
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.content-centered {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+}
+
+.sub-title {
+  margin: 10px;
+}
+
+.main-title {
+  margin: 10px;
+}
+
+.outbound-links {
+  display: flex;
+  list-style: none;
+  margin: 10px;
+}
+
+.social-link {
+  padding: 10px;
 }
